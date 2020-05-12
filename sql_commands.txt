@@ -1,0 +1,9 @@
+automatic attendance project
+
+select * from users;
+create table users(id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+name varchar(100) not null,
+date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+arrival_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+arrival_picture varchar(5000)
+)
